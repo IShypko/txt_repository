@@ -1,0 +1,7 @@
+Agenda:
+
+1.GitBash
+2.GitHub
+3.Mobile Testing
+4.Postman
+5.SQl etc.
