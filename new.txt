@@ -14,19 +14,19 @@ JSON
  8. Закоммитить файл. === git commit -m "add json file"
  9. Отправить файл на внешний GitHub репозиторий. === git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. === vim new.json
- 11. Отправить изменения на внешний репозиторий. === git push
+ 11. Отправить изменения на внешний репозиторий. === git commit -am "modify file" then  git push
  12. Создать файл preferences.json === cat > preferences.json or touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. === vim preferences.json
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON === cat > skills.json or touch skills.json
- 15. Отправить сразу 2 файла на внешний репозиторий. === git push
+ 15. Отправить сразу 2 файла на внешний репозиторий. === git add files name then git commit -m "comment" then git push
  16. На веб интерфейсе создать файл bug_report.json. === open github - open repository - Add file with the name bug_report.json
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === click the "Commit new file" button
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. === open the 'bug_report.json' file and click the 'Edit' option
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === click the 'Commit changes' button
- 20. Синхронизировать внешний и локальный репозиторий JSON === open terminal and write git pull command
+ 20. Синхронизировать внешний и локальный репозиторий JSON === open terminal and write git pull 
 
 
 Iryna Shypko Leonidivna
-I have no animals. I'm xx years old. I'm working as a  Quality Assurance Enginner.
+I have no animals. I'm xx years old. I'm working as a  Quality Assurance Engineer.
 
 Smile:)
